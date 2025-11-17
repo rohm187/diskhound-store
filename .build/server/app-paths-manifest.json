@@ -1,0 +1,13 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/cart/page": "app/cart/page.js",
+  "/checkout/page": "app/checkout/page.js",
+  "/faq/page": "app/faq/page.js",
+  "/api/stripe/webhook/route": "app/api/stripe/webhook/route.js",
+  "/api/stripe/create-payment-intent/route": "app/api/stripe/create-payment-intent/route.js",
+  "/api/orders/route": "app/api/orders/route.js",
+  "/order-confirmation/[orderId]/page": "app/order-confirmation/[orderId]/page.js",
+  "/page": "app/page.js",
+  "/products/[id]/page": "app/products/[id]/page.js",
+  "/products/page": "app/products/page.js"
+}

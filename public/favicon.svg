@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <defs>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="256" height="256" fill="#000000"/>
+  <path d="M140 80 L140 176 L165 176 Q185 176 195 166 Q205 156 205 136 Q205 116 195 106 Q185 96 165 96 L140 96 M140 110 L162 110 Q175 110 182 117 Q189 124 189 136 Q189 148 182 155 Q175 162 162 162 L140 162 Z" fill="#00FFFF" filter="url(#glow)" opacity="0.95"/>
+  <path d="M50 80 L50 176 L66 176 L66 136 L90 136 L90 176 L106 176 L106 80 L90 80 L90 122 L66 122 L66 80 Z" fill="#FF00FF" filter="url(#glow)" opacity="0.95"/>
+  <path d="M180 190 Q185 185 192 182 Q198 180 205 180 Q215 180 222 188 L230 200 Q235 210 235 220 Q235 228 230 233 Q225 238 218 238 Q210 238 205 232 L195 218 Q190 210 185 205 L175 200 Q165 198 158 200 L148 205 Q140 212 135 220 L128 232 Q123 238 115 238 Q108 238 103 233 Q98 228 98 220 Q98 210 103 200 L111 188 Q118 180 128 180 Q135 180 141 182 Q148 185 153 190 L165 198 Z" fill="#00FFFF" opacity="0.4"/>
+</svg>
