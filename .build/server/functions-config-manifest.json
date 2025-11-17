@@ -1,1 +1,1 @@
-{"version":1,"functions":{"/api/orders":{},"/api/stripe/webhook":{},"/order-confirmation/[orderId]":{},"/api/stripe/create-payment-intent":{},"/products":{},"/products/[id]":{}}}
+{"version":1,"functions":{"/api/orders":{},"/api/stripe/create-payment-intent":{},"/api/stripe/webhook":{},"/products/[id]":{},"/products":{},"/order-confirmation/[orderId]":{}}}
